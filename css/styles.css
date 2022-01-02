@@ -19,6 +19,8 @@ nav{
     text-decoration: none;
     font-size: 20px;
     color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .items{
     /* background-color: yellow; */
@@ -132,11 +134,12 @@ img{
 }
 .container2{
     width: 80%;
-    height: 80%;
+    height: auto;
     margin: auto;
     display: flex;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
 }
 .container2 .services{
     padding-top: 50px;
@@ -146,94 +149,48 @@ img{
 .container2 h2{
     font-size: 40px;
     width: 70%;
+    margin: 10px 0 20px 0;
 }
 .container2 .content{
     height: 100%;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
 .container2 .description{
     font-size: 16px;
-    width: 370px;
+    width: 90%;
     color: #88879e;
     line-height: 1.8;
 }
 .container2 .cards{
-    border: 1px solid;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    width: 60%;
 }
 .container2 .first-card{
     width: 100%;
-    height: 40%;
-    padding-bottom: 20px;
-    /* background-color: blue; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.container2 .second-card{
-    width: 100%;
-    height: 40%;
-    /* background-color: red; */
+.card{
+    width: 30%;
+    height: 200px; 
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.card1{
-    /* position: relative;
-    top: -300px; */
-    width: auto; 
-    /* padding: 20px; */
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 1px solid #dad2d2;
+    margin: 10px;
+    box-shadow: 1px 1px 20px  rgba(128, 128, 128, 0.109);
+    padding: 10px;
 }
-.card2{
-    /* position: relative;
-    top: -476px;
-    right: -300px; */
-    width: auto;
-    padding: 20px; 
-    text-align: center;
-    border: 1px solid #dad2d2;
+.card h3{
+    margin-bottom: 10px;
 }
-.card3{
-    /* position: relative;
-    top: -653px;
-    right: -600px; */
-    width: auto; 
-    /* padding: 20px; */
-    text-align: center;
-    border: 1px solid #dad2d2;
-}
-.card4{
-    /* position: relative;
-    top: -620px; */
-    width: auto;
-    /* padding: 20px; */
-    text-align: center;
-    border: 1px solid #dad2d2;
-}
-.card5{
-    /* position: relative;
-    top: -796px;
-    right: -300px; */
-    width: auto;
-    /* padding: 20px; */
-    text-align: center;
-    border: 1px solid #dad2d2;
-}
-.card6{
-    /* position: relative;
-    top: -972px;
-    right: -600px; */
-    width: auto;
-    /* padding: 20px; */
-    text-align: center;
-    border: 1px solid #dad2d2;
+.content button{
+    height: 55px;
+    width: 200px;
+    margin-top: 10px;
 }
 
 /* .fab{
